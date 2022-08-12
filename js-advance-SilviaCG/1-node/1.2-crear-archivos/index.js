@@ -7,6 +7,7 @@ const contentForFile = 'this is written from Node';
 // PATH RELATIVE: 1-node\1.2-crear-archivos
 //1-node\1.1-funciones-base
 
+/* Creating a file in the current directory with the name of the file being the current date and time. */
 const filePath = path+nameFile;
 fs.writeFile(filePath, contentForFile, (err) => {
     if(err){
