@@ -1,5 +1,5 @@
 import{sum, substract} from './modules/sum-substract.js';
-import{multiply, divideNumbers} from './modules/multiply-divide.js';
+// import{multiply, divideNumbers} from './modules/multiply-divide.js';
 import * as Operations from './modules/multiply-divide.js'
 function main() {
     let numero1 = 10;
