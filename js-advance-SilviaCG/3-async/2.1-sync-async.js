@@ -3,10 +3,10 @@
  * no hay codigo dependiente o bloqueante
  * */
 
-// console.log('============== BLOQUE 1 ==============');
-//  console.log('Primero'); 
-//  console.log('Segundo');
-//  console.log('Tercero');
+console.log('============== BLOQUE 1 ==============');
+console.log('Primero'); 
+console.log('Segundo');
+console.log('Tercero');
 
  /**
   * BLOQUE 2: PROBLEMA TIPICO DE ASYNC
@@ -14,8 +14,8 @@
  const validatePayment = ()=>{
     setTimeout(() =>{
         console.log('2. validate CC and show loader');
-    }, 10000)
- }
+    }, 3000)
+ };
 
  console.log('1 press button buy');
  validatePayment();
